@@ -1,5 +1,6 @@
 export interface Product {
   id: string;
+  productCode: string;
   name: string;
   category: string;
   description: string;
@@ -17,6 +18,7 @@ export interface Product {
   featured?: boolean;
   trending?: boolean;
   exportReady: boolean;
+  
 }
 
 export interface Category {
